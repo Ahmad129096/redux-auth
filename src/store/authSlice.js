@@ -7,7 +7,7 @@ const authSlice = createSlice({
     initialState:{isAuthenticated: false},
     reducers:{
         login(state){
-            state.isAuthenticated = state.isAuthenticated =true
+            state.isAuthenticated = true
         },
         logout(state){
             state.isAuthenticated = !state.isAuthenticated
